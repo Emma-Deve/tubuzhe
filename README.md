@@ -1,4 +1,4 @@
-<h2 align="center">My Portfolio build with React+Material-ui</h2>
+<h2 align="center">CMS React+Redux+MaterialUI</h2>
 
 <div align="center">
 
@@ -14,8 +14,8 @@
 # 克隆仓库
 git clone git@github.com:Emma-Deve/tubuzhe.git
 
-# 进入walker-admin文件夹
-cd 徒步者
+# 进入tubuzhe文件夹
+cd tubuzhe
 
 # 安装依赖
 npm install
@@ -34,67 +34,65 @@ yarn start
 
 ```shell
 
-├── src
-│   ├── assets
-│   ├── canvas
-│   ├── components
-│   │   ├── Card
-│   │   ├── CardBasic
-│   │   ├── CustomButtons
-│   │   ├── CustomInput
-│   │   ├── CustomTabs
-│   │   ├── Dialog
-│   │   ├── Footer
-│   │   ├── Grid
-│   │   ├── HeaderNavbar
-│   │   ├── HotelCard
-│   │   ├── HotelList
-│   │   ├── Loading.jsx
-│   │   ├── Login
-│   │   ├── MaterialTable
-│   │   ├── MuiDatepicker
-│   │   ├── MuiTimepicker
-│   │   ├── NotFound.jsx
-│   │   ├── Notifications
-│   │   ├── PickerWithButton
-│   │   ├── ScrollToTopMount.jsx
-│   │   ├── SideBar.jsx
-│   │   ├── SideTool.jsx
-│   │   ├── Snackbar
-│   │   ├── Table
-│   │   ├── TestPlopAutoCreate
-│   │   ├── Typography
-│   │   └── common-style
-│   ├── dbdata
-│   ├── hoc
+src
+├── assets
+├── canvas
+├── components
+│   ├── Card
+│   ├── CardBasic
+│   ├── CustomButtons
+│   ├── CustomInput
+│   ├── CustomTabs
+│   ├── Dialog
+│   ├── Footer
+│   ├── Grid
+│   ├── HeaderNavbar
+│   ├── HotelCard
+│   ├── HotelList
+│   ├── Loading.jsx
+│   ├── Login
+│   ├── MaterialTable
+│   ├── MuiDatepicker
+│   ├── MuiTimepicker
+│   ├── NotFound.jsx
+│   ├── Notifications
+│   ├── PickerWithButton
+│   ├── ScrollToTopMount.jsx
+│   ├── SideBar.jsx
+│   ├── SideTool.jsx
+│   ├── Snackbar
+│   ├── Table
+│   ├── TestPlopAutoCreate
+│   ├── Typography
+│   └── common-style
+├── dbdata
+├── hoc
+├── index.js
+├── logo.svg
+├── routes
+├── serviceWorker.js
+├── static
+├── store
+│   ├── indexStore.js
+│   └── modules
+│       ├── account
+│       ├── common
+│       └── theme
+├── styles
+├── utils
+│   ├── ButtonWaveEffect.js
+│   ├── cookieStore.js
+│   ├── getBrowserInfo.js
 │   ├── index.js
-│   ├── logo.svg
-│   ├── routes
-│   ├── serviceWorker.js
-│   ├── static
-│   ├── store
-│   │   ├── indexStore.js
-│   │   └── modules
-│   │       ├── account
-│   │       ├── common
-│   │       └── theme
-│   ├── styles
-│   ├── utils
-│   │   ├── ButtonWaveEffect.js
-│   │   ├── cookieStore.js
-│   │   ├── getBrowserInfo.js
-│   │   ├── index.js
-│   │   └── sessionStore.js
-│   └── views
-│       ├── ChartPage
-│       ├── EmployeeManagement
-│       ├── Home.jsx
-│       ├── HotelPage
-│       ├── MemberPage
-│       ├── PlayLinePage
-│       └── UserProfile
-└── tsconfig.json
-
-
+│   └── sessionStore.js
+└── views
+    ├── ChartPage
+    ├── EmployeeManagement
+    ├── Home.jsx
+    ├── HotelPage
+    ├── MemberPage
+    ├── PlayLinePage
+    └── UserProfile
+    
 ```
 # tubuzhe
